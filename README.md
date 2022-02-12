@@ -14,7 +14,7 @@ Both methods require the creation of a TDA Developer Account and a subsequent Ap
 4. Your **Consumer Key** that you generate will be your API KEY.
 
 ## Restrictions
-Due to limitations of the TD Ameritrade Streaming API, specific conditions must be met for the Trade Alert Bot to successfully connect to an account.
+Due to the limitations of the TD Ameritrade Streaming API, specific conditions must be met for the Trade Alert Bot to successfully connect to an account.
 1. The account used must not have any linked accounts. All linked accounts must first be unlinked through TD Ameritrade before proceeding.
 2. The account used to authenticate and generate the token file must be the same account as the one being connected to the Trade Alert Bot.
 3. Tokens must be regenerated every 90 days. The Trade Alert Bot is programmed to automatically do this starting 85 days after token generation, but **this only occurs if a successful API call is made**. This means that the Trade Alert Bot must be actively used in Discord at least once between days 85-90. If this condition is not met, the bot will fail and a new token must be manually generated and uploaded to restart it.
