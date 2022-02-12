@@ -33,7 +33,7 @@ This method is easiest, but requires you to run Python locally on your machine.
 
 ## Online Method
 This method is best for those who do not want to download anything or are unfamiliar with using terminal.
-1. Go to your auth URL, by filling in your API KEY into the example link below (Replace **YOUR_API_KEY**).
+1. Go to your auth URL by filling in your API KEY into the example link below (Replace **YOUR_API_KEY**).
 
     https://auth.tdameritrade.com/auth?response_type=code&redirect_uri=https://localhost&client_id=YOUR_API_KEY%40AMER.OAUTHAP&scope=AccountAccess
 2. Authenticate with the TD Ameritrade account you plan on streaming trades from. This will lead you to an error page. Copy the part that comes after "code=" in the address bar.
