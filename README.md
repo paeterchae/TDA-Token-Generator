@@ -25,7 +25,7 @@ This method is easiest, but requires you to run Python locally on your machine.
 2. Type *git clone https://github.com/stonkpab/TDA-Token-Generator.git*
 3. Type *cd TDA-Token-Generator*
 4. Plug in TDA API key in .env file
-5. Type *pip install requirements-test.txt*
+5. Type *pip install requirements.txt*
 6. Type *python3 bot.py*
 7. Follow instructions written in terminal
    * **IMPORTANT**: Add *&scope=AccountAccess* to the end of the generated link
