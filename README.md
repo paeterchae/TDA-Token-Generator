@@ -48,15 +48,12 @@ This method is best for those who do not want to download anything or are unfami
 6. Click on **Response** and copy the token (should look like this).
 ```
 {
-  "creation_timestamp": 1644624039,
-  "token": {
-    "access_token": "abcdefg",
-    "scope": "AccountAccess",
-    "expires_in": 1800,
-    "token_type": "Bearer",
-    "expires_at": 1644634062,
-    "refresh_token": "abcdefg"
-  }
+  "access_token": "abcdefg",
+  "refresh_token": "abcdefg",
+  "scope": "AccountAccess",
+  "expires_in": 1800,
+  "refresh_token_expires_in": 7776000,
+  "token_type": "Bearer"
 }
 ```
 7. Create a file named **token.json** and paste the token contents in the file.
