@@ -20,15 +20,15 @@ Due to the limitations of the TD Ameritrade Streaming API, specific conditions m
 3. Tokens must be regenerated every 90 days. The Trade Alert Bot is programmed to automatically do this starting 85 days after token generation, but **this only occurs if a successful API call is made**. This means that the Trade Alert Bot must be actively used in Discord at least once between days 85-90. If this condition is not met, the bot will fail and a new token must be manually generated and uploaded to restart it.
 
 ## Offline Method
-This method is easiest, but requires you to run Python locally on your machine.
+This method is easiest, but requires you to run Python and pip locally on your machine.
 1. Open terminal.
 2. Type *git clone https://github.com/stonkpab/TDA-Token-Generator.git*
 3. Type *cd TDA-Token-Generator*
 4. Plug in TDA API key in .env file
-5. Type *pip install requirements.txt*
-6. Type *python3 bot.py*
+5. Type *pip3 install requirements.txt*
+6. Type *python3 tda-token-gen.py*
 7. Follow instructions written in terminal
-   * **IMPORTANT**: Add *&scope=AccountAccess* to the end of the generated link
+   * **IMPORTANT**: Add *&scope=AccountAccess* to the end of the generated link in Step 1.
 8. Outputted token.json is your TDA token.
 
 ## Online Method
