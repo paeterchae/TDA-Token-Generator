@@ -43,7 +43,7 @@ This method is best for those who do not want to download anything or are unfami
     * **grant_type**: authorization_code
     * **refresh_token**: (leave empty)
     * **access_type**: offline
-    * **client_id**: **YOUR_API_KEY**@AMER.OAUTHUP
+    * **client_id**: **YOUR_API_KEY**@AMER.OAUTHAP
     * **redirect_uri**: https://localhost
 6. Click on **Response** and copy the token (should look like this).
 ```
