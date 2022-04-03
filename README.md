@@ -24,7 +24,7 @@ This method is easiest, but requires you to run Python and pip locally on your m
 1. Open terminal.
 2. Type *git clone https://github.com/stonkpab/TDA-Token-Generator.git*
 3. Type *cd TDA-Token-Generator*
-4. Plug in TDA API key in .env file
+4. Plug in TDA API key in tda-token-gen.py where it says "FILL_IN_HERE"
 5. Type *pip3 install requirements.txt*
 6. Type *python3 tda-token-gen.py*
 7. Follow instructions written in terminal
